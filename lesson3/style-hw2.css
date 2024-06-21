@@ -1,0 +1,26 @@
+body {
+    background: #508757;
+}
+
+.box {
+    width: 180px;
+    height: 170px;
+    border: solid black 2px;
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px;
+    margin: 10px;
+    background: #c8fdce;
+    box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.75);
+}
+
+.box:hover {
+    transform: scale(1.1);
+    transition: 1.30s;
+}
+
+p {
+    margin-top: 25px;
+    font-size: 14px;
+}

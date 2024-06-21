@@ -1,0 +1,16 @@
+body {
+    background: antiquewhite;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: red;
+    justify-content: center;
+    margin: 70px;
+}
+.box:hover {
+    background: grey;
+    border-radius: 50%;
+    transition: 1s;
+}
