@@ -10,7 +10,8 @@
     border-top-right-radius: 30px;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
+
 }
 
 .flex {
