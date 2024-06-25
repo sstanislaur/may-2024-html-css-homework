@@ -23,20 +23,17 @@
     justify-content: center;
 }
 
-p {
-    text-align: center;
-    padding-top: 20vh;
-    font-size: 5vh;
-}
-
-.bigwid {
-    padding-top: 10vh;
-}
-
-.bigcont {
-    padding-top: 30vh;
-}
-
 .section {
     font-size: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.little-section {
+    font-size: 5vh;
+    padding-top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
