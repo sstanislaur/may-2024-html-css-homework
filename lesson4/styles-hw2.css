@@ -4,6 +4,14 @@
     margin: 25px;
     display: flex;
     justify-content: center;
+    font-size: 10vh;
+    align-items: center;
+}
+
+.flex {
+    flex-wrap: wrap;
+    display: flex;
+
 }
 
 .small-widgets {
@@ -11,8 +19,10 @@
     height: 56vh;
     width: 56vh;
     margin: 28px;
-    display: inline-block;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vh;
 }
 
 .contact {
@@ -21,19 +31,7 @@
     margin: 25px;
     display: flex;
     justify-content: center;
-}
-
-.section {
     font-size: 10vh;
-    display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-.little-section {
-    font-size: 5vh;
-    padding-top: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
