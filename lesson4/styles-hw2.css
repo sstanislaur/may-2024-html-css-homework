@@ -1,0 +1,42 @@
+.widgets {
+    background: dodgerblue;
+    height: 50vh;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.small-widgets {
+    background: mediumblue;
+    height: 56vh;
+    width: 56vh;
+    margin: 28px;
+    display: inline-block;
+
+}
+
+.contact {
+    background: dodgerblue;
+    height: 100vh;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    padding-top: 20vh;
+    font-size: 5vh;
+}
+
+.bigwid {
+    padding-top: 10vh;
+}
+
+.bigcont {
+    padding-top: 30vh;
+}
+
+.section {
+    font-size: 10vh;
+}
