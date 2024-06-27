@@ -1,0 +1,83 @@
+body {
+    background: lightblue;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-color {
+    width: 225px;
+    height: 200px;
+    margin: 10px;
+    border: black 2px solid;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: black 5px 5px 10px;
+
+}
+
+b {
+    font-size: 100px;
+    justify-content: center;
+    display: flex;
+    font-family: "Dancing Script", cursive;
+}
+
+p {
+    font-size: 25px;
+    margin: 0;
+}
+h1 {
+    font-size: 40px;
+}
+#black {
+    background: black;
+}
+
+#red {
+    background: red;
+}
+
+#green {
+    background: green;
+}
+
+#blue {
+    background: blue;
+}
+
+#fuchsia {
+    background: fuchsia;
+}
+
+#purple {
+    background: purple;
+}
+
+#maroon {
+    background: maroon;
+}
+
+#olive {
+    background: olive;
+}
+#yellow {
+    background: yellow;
+}
+#white {
+    background: white;
+}
+
+#black, #red, #green, #blue, #fuchsia, #purple, #maroon, #olive {
+    color: white;
+}
+
+#white, #yellow {
+    color: black;
+}
