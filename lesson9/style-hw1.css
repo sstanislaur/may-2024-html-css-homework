@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #508757;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.flex {
+    margin-top: 20vh;
+    display: flex;
+}
+.main {
+    height: 400px;
+    width: 500px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.first, .two {
+    margin-top: 30px;
+}
+
+button {
+    border-radius: 25px;
+    height: 30px;
+    width: 100px;
+    justify-content: end;
+    align-items: end;
+    border: black solid 1px;
+    margin-left: 160px;
+}
+
+#name, #password {
+    height: 35px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 28px;
+}

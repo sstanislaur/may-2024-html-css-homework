@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.flex {
+    margin-top: 10vh;
+
+}
+
+.main {
+    height: 600px;
+    width: 450px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: grey 1px solid;
+    padding: 70px;
+}
+
+.facebook {
+    width: 25px;
+    height: 20px;
+    padding-right: 5px;
+    margin-left: 55px;
+}
+
+.logo {
+    height: 100px;
+    width: 300px;
+    display: flex;
+}
+
+.first {
+    margin-top: 30px;
+}
+
+button {
+    margin-top: 25px;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    justify-content: end;
+    align-items: end;
+    border: none;
+    background: #60a9f6;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#name, #password {
+    height: 35px;
+    width: 300px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: grey;
+
+}
+
+
+.text {
+    color: #007BFF;
+}
+
+.bottom {
+    color: black;
+    border: #c8c8c8 1px solid;
+    padding: 10px;
+
+}
+
+.footer {
+    color: #4c77bf;
+    font-size: 18px;
+    text-align: center;
+}
