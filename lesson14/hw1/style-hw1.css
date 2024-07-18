@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    height: 2069px;
+    font-family: "Taviraj", serif;
+    background: #F7F6F4;
+}
+
+header > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 42px;
+    color: #333;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    margin-right: 250px;
+}
+
+.logo {
+    margin-right: 186px;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box {
+    width: 1110px;
+    height: 505px;
+    background: #F1DDC9;
+    margin-top: 90px;
+    text-align: center;
+}
+
+button {
+    width: 208px;
+    height: 62px;
+    background: #D84727;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    margin-top: 79px;
+    margin-right: 150px;
+    font-family: "Taviraj", serif;
+}
+
+h2 {
+    color: #333;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px; /* 133.333% */
+    letter-spacing: 1.2px;
+    padding-top: 56px;
+    padding-left: 375px;
+    padding-right: 300px;
+    text-align: left;
+}
+
+.head {
+    color: #333;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    padding-left: 375px;
+    padding-right: 300px;
+    padding-top: 32px;
+    text-align: left;
+}
+
+.time {
+    width: 325px;
+    height: 467px;
+    display: flex;
+    position: absolute;
+}
+
+h3 {
+    margin-left: 165px;
+    margin-top: 132px;
+    color: #333;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 255px;
+    height: 278px;
+    background: #FFF;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.04);
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-left: 46px;
+    margin-top: 129px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.card > img {
+    margin: 20px;
+}
+
+.card > p {
+    margin-bottom: 100px;
+}
+
+footer {
+    display: inline-block;
+}
+
+footer > p {
+    margin-left: 165px;
+    margin-top: 181px;
+    color: #777;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+}
+
+footer > img {
+    margin-left: 600px;
+    margin-top: -300px;
+}
+
+h4 {
+    margin-left: 165px;
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.72px;
+    padding-top: 20px;
+}
