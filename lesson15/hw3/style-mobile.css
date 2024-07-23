@@ -1,0 +1,27 @@
+@media screen and (max-width: 480px) {
+    .header p::after {
+        content: "Mobile";
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+        margin: 0;
+        border: 2px solid white;
+    }
+
+    main > section {
+        width: 100%;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    main > section > h2, div > section > h2 {
+        text-align: center;
+    }
+}

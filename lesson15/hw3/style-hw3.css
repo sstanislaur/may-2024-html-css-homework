@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    font-size: 45px;
+    background: #454545;
+    color: white;
+    padding: 10px;
+}
+
+.header p:after {
+    content: "Desktop";
+}
+
+.flex {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.box {
+   width: 10vh;
+    padding: 5px;
+    color: white;
+    background: cornflowerblue;
+   margin: 10px;
+}
+
+div > section {
+    width: 100%;
+    height: 30vh;
+    color: white;
+    background: cornflowerblue;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+h2 {
+    padding: 20px;
+    text-align: end;
+}
+
+main {
+    margin-top: 3vh;
+    flex-wrap: wrap;
+}
+
+main > section {
+    color: white;
+    background: cornflowerblue;
+    height: 20vh;
+    width: 50%;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+footer {
+    color: white;
+    background: cornflowerblue;
+    width: 100%;
+    height: 10vh;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+footer > h2 {
+    text-align: center;
+}

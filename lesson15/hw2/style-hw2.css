@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 35px;
+}
+
+header {
+    height: 35vh;
+    background: grey;
+    border: white 5px solid;
+}
+
+div > section {
+    height: 35vh;
+    width: 75%;
+    background: grey;
+    border: white 5px solid;
+}
+
+footer > section {
+    height: 30vh;
+    width: 25%;
+    background: grey;
+    border: white 5px solid;
+
+}
+.foot {
+    height: 65vh;
+    width: 25%;
+    background: grey;
+    border: white 5px solid;
+    margin-top: -65vh;
+
+}
+.bottom {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.flex {
+    display: flex;
+}

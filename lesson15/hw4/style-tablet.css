@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) and (min-width: 481px) {
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+    p {
+        width: 300px;
+    }
+}

@@ -1,0 +1,36 @@
+@media screen and (max-width: 480px) {
+    header {
+        margin-top: 2.5vh;
+        width: 100%;
+        height: 10vh;
+        font-size: 18px;
+    }
+
+    div > section {
+        margin-top: 5vh;
+        width: 100%;
+        height: 50vh;
+        font-size: 18px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    footer > section {
+        height: 10vh;
+        width: 20vw;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .foot {
+        width: 100%;
+        height: 10vh;
+        font-size: 18px;
+        margin: 0;
+    }
+
+}
