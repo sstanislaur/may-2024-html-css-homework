@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas:
+        "header header header header"
+        "content-1 content-1 content-1 spam-1"
+        "content-2 content-2 content-2 spam-2"
+        "content-3 content-3 content-3 spam-2"
+        "footer footer footer footer";
+            grid-template-columns: repeat(4, 1fr);
+            height: 100vh;
+
+        }
+
+
+        .header {
+            grid-area: header;
+            background: #8D8484;
+        }
+
+        .content-1 {
+            grid-area: content-1;
+            background: #776969;
+        }
+
+        .content-2 {
+            grid-area: content-2;
+            background: #643030;
+
+        }
+
+        .content-3 {
+            grid-area: content-3;
+            background: #441818;
+        }
+
+        .spam-1 {
+            grid-area: spam-1;
+            background: #937575;
+        }
+
+        .spam-2 {
+            grid-area: spam-2;
+            background: #644C4C;
+        }
+
+        .footer {
+            grid-area: footer;
+            background: #BDBDBD;
+        }
+
+        .container > div {
+            text-align: center;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            display: grid;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">Header</div>
+    <div class="content-1">Content - 1</div>
+    <div class="content-2">Content - 2</div>
+    <div class="content-3">Content - 3</div>
+    <div class="spam-1">spam -1</div>
+    <div class="spam-2">spam -2</div>
+    <div class="footer">footer</div>
+</div>
+</body>
+</html>

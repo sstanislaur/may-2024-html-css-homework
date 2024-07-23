@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px) {
+    .container {
+        grid-template-areas:
+        "header header  "
+        "column1 column1 "
+        "column2 column2 "
+        "column3 column3 "
+        "footer footer ";
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+}

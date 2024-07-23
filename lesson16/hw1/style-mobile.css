@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px) {
+    .grid {
+        margin: 20px;
+        grid-gap: 5vh;
+        grid-template-rows:2fr 5fr 2fr;
+        grid-template-areas:
+            'header header header'
+            'section section section'
+            'aside aside aside';
+
+    }
+}

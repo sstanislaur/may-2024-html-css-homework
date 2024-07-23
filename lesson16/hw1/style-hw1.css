@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 1vh;
+    height: 100vh;
+    grid-template-rows:2fr 5fr;
+    grid-template-columns:3fr 3fr 2fr;
+    grid-template-areas:
+            'header header header'
+            'section section aside';
+}
+
+header {
+    grid-area: header;
+}
+
+section {
+    grid-area: section;
+}
+
+aside {
+    grid-area: aside;
+}
+
+header, section, aside {
+    background: gray;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
